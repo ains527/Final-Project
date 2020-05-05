@@ -43,6 +43,54 @@
             </objects>
             <point key="canvasLocation" x="1671.0144927536232" y="448.66071428571428"/>
         </scene>
+        <!--Seton Hill-->
+        <scene sceneID="LXT-BF-BV5">
+            <objects>
+                <viewController id="D8h-zB-tfS" customClass="WebViewController" customModule="Plumadore_Homework__7" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZSX-It-wId">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkJ-fC-iyD">
+                                <rect key="frame" x="66" y="686" width="282" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="Open SHU"/>
+                                <connections>
+                                    <action selector="openSite:" destination="D8h-zB-tfS" eventType="touchUpInside" id="Q54-Vm-bNe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7d-VF-YnA">
+                                <rect key="frame" x="20" y="55" width="383" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="Send Text Message "/>
+                                <connections>
+                                    <action selector="sendSMS:" destination="D8h-zB-tfS" eventType="touchUpInside" id="w3X-wU-bJv"/>
+                                </connections>
+                            </button>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yP-2f-WQn">
+                                <rect key="frame" x="20" y="161" width="374" height="550"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="uDx-ln-av4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Seton Hill" image="doc.on.doc" catalog="system" selectedImage="doc.on.doc.fill" id="uhO-NX-Scf"/>
+                    <connections>
+                        <outlet property="webView" destination="9yP-2f-WQn" id="aOJ-LW-PbE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ID5-Xj-2wd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1660.8695652173915" y="1105.5803571428571"/>
+        </scene>
         <!--Welcome-->
         <scene sceneID="ioz-W3-65J">
             <objects>
@@ -84,6 +132,7 @@
                     <connections>
                         <segue destination="C2J-cn-mR6" kind="relationship" relationship="viewControllers" id="xHq-gh-8Gz"/>
                         <segue destination="w4y-iG-YvM" kind="relationship" relationship="viewControllers" id="gYE-Q6-CsJ"/>
+                        <segue destination="D8h-zB-tfS" kind="relationship" relationship="viewControllers" id="YYE-fJ-P69"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RfR-6k-oCP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -95,6 +144,8 @@
         <image name="Seton Hill" width="1200" height="630"/>
         <image name="arrow.up.doc" catalog="system" width="56" height="64"/>
         <image name="arrow.up.doc.fill" catalog="system" width="56" height="64"/>
+        <image name="doc.on.doc" catalog="system" width="58" height="64"/>
+        <image name="doc.on.doc.fill" catalog="system" width="58" height="64"/>
         <image name="doc.text" catalog="system" width="56" height="64"/>
         <image name="doc.text.fill" catalog="system" width="56" height="64"/>
     </resources>

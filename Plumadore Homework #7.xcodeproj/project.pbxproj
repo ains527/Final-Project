@@ -15,6 +15,8 @@
 		2713A1F8245F19A400996D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2713A1F6245F19A400996D28 /* LaunchScreen.storyboard */; };
 		2713A203245F19A400996D28 /* Plumadore_Homework__7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A202245F19A400996D28 /* Plumadore_Homework__7Tests.swift */; };
 		2713A20E245F19A400996D28 /* Plumadore_Homework__7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A20D245F19A400996D28 /* Plumadore_Homework__7UITests.swift */; };
+		2713A21C245F521200996D28 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A21B245F521200996D28 /* WebViewController.swift */; };
+		2713A21F24609D0700996D28 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2713A21E24609D0700996D28 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2713A209245F19A400996D28 /* Plumadore Homework #7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plumadore Homework #7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2713A20D245F19A400996D28 /* Plumadore_Homework__7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plumadore_Homework__7UITests.swift; sourceTree = "<group>"; };
 		2713A20F245F19A400996D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2713A21B245F521200996D28 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		2713A21E24609D0700996D28 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2713A21F24609D0700996D28 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				2713A201245F19A400996D28 /* Plumadore Homework #7Tests */,
 				2713A20C245F19A400996D28 /* Plumadore Homework #7UITests */,
 				2713A1E9245F199F00996D28 /* Products */,
+				2713A21D24609D0700996D28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				2713A1ED245F199F00996D28 /* SceneDelegate.swift */,
 				2713A1EF245F199F00996D28 /* ViewController.swift */,
 				2713A1F1245F199F00996D28 /* Main.storyboard */,
+				2713A21B245F521200996D28 /* WebViewController.swift */,
 				2713A1F4245F19A400996D28 /* Assets.xcassets */,
 				2713A1F6245F19A400996D28 /* LaunchScreen.storyboard */,
 				2713A1F9245F19A400996D28 /* Info.plist */,
@@ -126,6 +133,14 @@
 				2713A20F245F19A400996D28 /* Info.plist */,
 			);
 			path = "Plumadore Homework #7UITests";
+			sourceTree = "<group>";
+		};
+		2713A21D24609D0700996D28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2713A21E24609D0700996D28 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +277,7 @@
 				2713A1F0245F199F00996D28 /* ViewController.swift in Sources */,
 				2713A1EC245F199F00996D28 /* AppDelegate.swift in Sources */,
 				2713A1EE245F199F00996D28 /* SceneDelegate.swift in Sources */,
+				2713A21C245F521200996D28 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

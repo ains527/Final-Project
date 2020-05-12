@@ -17,6 +17,9 @@
 		2713A20E245F19A400996D28 /* Plumadore_Homework__7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A20D245F19A400996D28 /* Plumadore_Homework__7UITests.swift */; };
 		2713A21C245F521200996D28 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A21B245F521200996D28 /* WebViewController.swift */; };
 		2713A21F24609D0700996D28 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2713A21E24609D0700996D28 /* WebKit.framework */; };
+		2713A2632469DDFE00996D28 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A2622469DDFE00996D28 /* TBViewController.swift */; };
+		2713A2652469E05300996D28 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A2642469E05300996D28 /* VotingViewController.swift */; };
+		2713A2672469E46100996D28 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2713A2662469E46100996D28 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2713A1E8245F199F00996D28 /* Plumadore Homework #7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plumadore Homework #7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2713A1E8245F199F00996D28 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2713A1EB245F199F00996D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2713A1ED245F199F00996D28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2713A1EF245F199F00996D28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,14 +48,17 @@
 		2713A1F4245F19A400996D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2713A1F7245F19A400996D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2713A1F9245F19A400996D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2713A1FE245F19A400996D28 /* Plumadore Homework #7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plumadore Homework #7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2713A1FE245F19A400996D28 /* Final PrjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final PrjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2713A202245F19A400996D28 /* Plumadore_Homework__7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plumadore_Homework__7Tests.swift; sourceTree = "<group>"; };
 		2713A204245F19A400996D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2713A209245F19A400996D28 /* Plumadore Homework #7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plumadore Homework #7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2713A209245F19A400996D28 /* Final PrjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final PrjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2713A20D245F19A400996D28 /* Plumadore_Homework__7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plumadore_Homework__7UITests.swift; sourceTree = "<group>"; };
 		2713A20F245F19A400996D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2713A21B245F521200996D28 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		2713A21E24609D0700996D28 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2713A2622469DDFE00996D28 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
+		2713A2642469E05300996D28 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		2713A2662469E46100996D28 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,9 @@
 		2713A1E9245F199F00996D28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2713A1E8245F199F00996D28 /* Plumadore Homework #7.app */,
-				2713A1FE245F19A400996D28 /* Plumadore Homework #7Tests.xctest */,
-				2713A209245F19A400996D28 /* Plumadore Homework #7UITests.xctest */,
+				2713A1E8245F199F00996D28 /* Final Project.app */,
+				2713A1FE245F19A400996D28 /* Final PrjectTests.xctest */,
+				2713A209245F19A400996D28 /* Final PrjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +115,9 @@
 				2713A1ED245F199F00996D28 /* SceneDelegate.swift */,
 				2713A1EF245F199F00996D28 /* ViewController.swift */,
 				2713A1F1245F199F00996D28 /* Main.storyboard */,
+				2713A2662469E46100996D28 /* ResultsViewController.swift */,
+				2713A2642469E05300996D28 /* VotingViewController.swift */,
+				2713A2622469DDFE00996D28 /* TBViewController.swift */,
 				2713A21B245F521200996D28 /* WebViewController.swift */,
 				2713A1F4245F19A400996D28 /* Assets.xcassets */,
 				2713A1F6245F19A400996D28 /* LaunchScreen.storyboard */,
@@ -146,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2713A1E7245F199F00996D28 /* Plumadore Homework #7 */ = {
+		2713A1E7245F199F00996D28 /* Final Prject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2713A212245F19A400996D28 /* Build configuration list for PBXNativeTarget "Plumadore Homework #7" */;
+			buildConfigurationList = 2713A212245F19A400996D28 /* Build configuration list for PBXNativeTarget "Final Prject" */;
 			buildPhases = (
 				2713A1E4245F199F00996D28 /* Sources */,
 				2713A1E5245F199F00996D28 /* Frameworks */,
@@ -158,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = "Plumadore Homework #7";
+			name = "Final Prject";
 			productName = "Plumadore Homework #7";
-			productReference = 2713A1E8245F199F00996D28 /* Plumadore Homework #7.app */;
+			productReference = 2713A1E8245F199F00996D28 /* Final Project.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2713A1FD245F19A400996D28 /* Plumadore Homework #7Tests */ = {
+		2713A1FD245F19A400996D28 /* Final PrjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2713A215245F19A400996D28 /* Build configuration list for PBXNativeTarget "Plumadore Homework #7Tests" */;
+			buildConfigurationList = 2713A215245F19A400996D28 /* Build configuration list for PBXNativeTarget "Final PrjectTests" */;
 			buildPhases = (
 				2713A1FA245F19A400996D28 /* Sources */,
 				2713A1FB245F19A400996D28 /* Frameworks */,
@@ -176,14 +185,14 @@
 			dependencies = (
 				2713A200245F19A400996D28 /* PBXTargetDependency */,
 			);
-			name = "Plumadore Homework #7Tests";
+			name = "Final PrjectTests";
 			productName = "Plumadore Homework #7Tests";
-			productReference = 2713A1FE245F19A400996D28 /* Plumadore Homework #7Tests.xctest */;
+			productReference = 2713A1FE245F19A400996D28 /* Final PrjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2713A208245F19A400996D28 /* Plumadore Homework #7UITests */ = {
+		2713A208245F19A400996D28 /* Final PrjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2713A218245F19A400996D28 /* Build configuration list for PBXNativeTarget "Plumadore Homework #7UITests" */;
+			buildConfigurationList = 2713A218245F19A400996D28 /* Build configuration list for PBXNativeTarget "Final PrjectUITests" */;
 			buildPhases = (
 				2713A205245F19A400996D28 /* Sources */,
 				2713A206245F19A400996D28 /* Frameworks */,
@@ -194,9 +203,9 @@
 			dependencies = (
 				2713A20B245F19A400996D28 /* PBXTargetDependency */,
 			);
-			name = "Plumadore Homework #7UITests";
+			name = "Final PrjectUITests";
 			productName = "Plumadore Homework #7UITests";
-			productReference = 2713A209245F19A400996D28 /* Plumadore Homework #7UITests.xctest */;
+			productReference = 2713A209245F19A400996D28 /* Final PrjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2713A1E3245F199F00996D28 /* Build configuration list for PBXProject "Plumadore Homework #7" */;
+			buildConfigurationList = 2713A1E3245F199F00996D28 /* Build configuration list for PBXProject "Final Prject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,9 +244,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2713A1E7245F199F00996D28 /* Plumadore Homework #7 */,
-				2713A1FD245F19A400996D28 /* Plumadore Homework #7Tests */,
-				2713A208245F19A400996D28 /* Plumadore Homework #7UITests */,
+				2713A1E7245F199F00996D28 /* Final Prject */,
+				2713A1FD245F19A400996D28 /* Final PrjectTests */,
+				2713A208245F19A400996D28 /* Final PrjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,10 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2713A2632469DDFE00996D28 /* TBViewController.swift in Sources */,
 				2713A1F0245F199F00996D28 /* ViewController.swift in Sources */,
 				2713A1EC245F199F00996D28 /* AppDelegate.swift in Sources */,
+				2713A2672469E46100996D28 /* ResultsViewController.swift in Sources */,
 				2713A1EE245F199F00996D28 /* SceneDelegate.swift in Sources */,
 				2713A21C245F521200996D28 /* WebViewController.swift in Sources */,
+				2713A2652469E05300996D28 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +314,12 @@
 /* Begin PBXTargetDependency section */
 		2713A200245F19A400996D28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2713A1E7245F199F00996D28 /* Plumadore Homework #7 */;
+			target = 2713A1E7245F199F00996D28 /* Final Prject */;
 			targetProxy = 2713A1FF245F19A400996D28 /* PBXContainerItemProxy */;
 		};
 		2713A20B245F19A400996D28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2713A1E7245F199F00996D28 /* Plumadore Homework #7 */;
+			target = 2713A1E7245F199F00996D28 /* Final Prject */;
 			targetProxy = 2713A20A245F19A400996D28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AinsleyPlumadore.Plumadore-Homework--7";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Final Project";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -476,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AinsleyPlumadore.Plumadore-Homework--7";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Final Project";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -500,7 +512,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plumadore Homework #7.app/Plumadore Homework #7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Prject.app/Final Prject";
 			};
 			name = Debug;
 		};
@@ -522,7 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plumadore Homework #7.app/Plumadore Homework #7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Prject.app/Final Prject";
 			};
 			name = Release;
 		};
@@ -569,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2713A1E3245F199F00996D28 /* Build configuration list for PBXProject "Plumadore Homework #7" */ = {
+		2713A1E3245F199F00996D28 /* Build configuration list for PBXProject "Final Prject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2713A210245F19A400996D28 /* Debug */,
@@ -578,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2713A212245F19A400996D28 /* Build configuration list for PBXNativeTarget "Plumadore Homework #7" */ = {
+		2713A212245F19A400996D28 /* Build configuration list for PBXNativeTarget "Final Prject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2713A213245F19A400996D28 /* Debug */,
@@ -587,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2713A215245F19A400996D28 /* Build configuration list for PBXNativeTarget "Plumadore Homework #7Tests" */ = {
+		2713A215245F19A400996D28 /* Build configuration list for PBXNativeTarget "Final PrjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2713A216245F19A400996D28 /* Debug */,
@@ -596,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2713A218245F19A400996D28 /* Build configuration list for PBXNativeTarget "Plumadore Homework #7UITests" */ = {
+		2713A218245F19A400996D28 /* Build configuration list for PBXNativeTarget "Final PrjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2713A219245F19A400996D28 /* Debug */,
